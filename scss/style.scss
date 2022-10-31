@@ -1,0 +1,271 @@
+@import "./normalize";
+@import "./vars";
+@import "./mixins";
+
+
+
+.header {
+    padding: 25px 0;
+    margin: 0 250px;
+    border-bottom: 1px solid black;
+}
+
+.header-menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu__item {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 23px;
+    color: $colorF;
+}
+
+.active {
+    color: $colorS;
+}
+
+.page-hero {
+    margin: 0 250px;
+}
+
+.page-hero__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-hero__name {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 60px;
+    color: $colorS;
+}
+
+.page-hero__text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    line-height: 22px;
+    color: $colorS;
+}
+
+.lang-switch {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    line-height: 20px;
+    transform: rotate(-90deg);
+    margin-right: -25px;
+}
+
+.lang-switch__item {
+    color: $colorF;
+}
+
+.active {
+    color: $colorS;
+}
+
+.page-hero__image img{
+    width: 100%;
+}
+
+.page-about {
+    margin-top: 5rem;
+    background-color: $colorBG;
+}
+
+.page-about__container {
+    margin: 0 250px;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-about__title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+.page-about__description {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 21px;
+}
+
+.page-about__item {
+    margin: 5px;
+}
+
+.page-skills {
+    margin: 0 250px;
+}
+
+.page-skills__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.page-skills__title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+.page-skills__description {
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.skills-card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skills-card__icon img{
+    width: 70px;
+}
+
+.skills-card__title {
+    padding: 25px 0;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 15px;
+    color: $colorF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-card__stars img{
+    width: 15px;
+    padding: 0 5px;
+}
+
+.skills-card__container {
+    display: flex;
+    
+}
+
+.page-portfolio {
+    background-color: $colorBG;
+}
+
+.page-portfolio__container {
+    padding: 50px 0;
+    margin: 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-portfolio__title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.page-portfolio__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.portfolio-card__image img{
+    width: 800px;
+}
+
+.portfolio-card__text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    border-bottom: 1px solid $colorS;
+}
+
+.portfolio-card__text a {
+    text-decoration: none;
+    color: $colorS;
+}
+
+.footer {
+    padding-top: 50px;
+    margin: 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.footer-contact {
+    font-family: 'Gilroy';
+}
+
+.footer-text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer-socials__items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.socials-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.socials-item__image{
+    width: 40px;
+}
+
+
+
+.footer-button {
+    background-color: $colorS;
+    color: white;
+    font-family: 'Gilroy';
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-socials__text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: $colorF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
